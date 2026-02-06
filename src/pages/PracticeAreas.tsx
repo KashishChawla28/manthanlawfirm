@@ -110,7 +110,7 @@ const PracticeAreasPage = () => {
               </h1>
               <div className="accent-line mx-auto mb-8" />
               <p className="text-body max-w-xl mx-auto">
-                Sterling & Associates offers distinguished counsel across a range of 
+                Manthan Law Firm offers distinguished counsel across a range of 
                 practice areas, providing sophisticated legal solutions tailored to 
                 each client's unique needs.
               </p>
