@@ -26,7 +26,7 @@ const ContactCTA = () => {
             <Link to="/contact" className="btn-primary">
               Contact Us
             </Link>
-            <a href="tel:+16175551234" className="btn-outline">
+            <a href="tel:+918595005005" className="btn-outline">
               +91 85950 05005
             </a>
           </div>
