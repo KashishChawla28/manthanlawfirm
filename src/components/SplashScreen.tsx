@@ -19,11 +19,11 @@ const SplashScreen = ({ onEnter }: SplashScreenProps) => {
           transition={{ duration: 0.8, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
         >
           <h1 className="text-display text-primary-foreground mb-6">
-            Sterling & Associates
+            Manthan Law Firm
           </h1>
           <div className="w-16 h-px bg-accent mx-auto mb-8" />
           <p className="text-primary-foreground/70 text-sm tracking-widest uppercase mb-16">
-            Attorneys at Law
+            Advocates & Legal Consultants
           </p>
         </motion.div>
 
