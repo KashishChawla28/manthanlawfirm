@@ -17,9 +17,6 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
         >
-          <p className="text-caption mb-6 text-muted-foreground">
-            Established 1987
-          </p>
         </motion.div>
 
         <motion.h1
@@ -45,8 +42,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.5, ease: [0.22, 1, 0.36, 1] }}
           className="text-body max-w-xl mx-auto mb-12 text-lg"
         >
-          For over three decades, we have provided sophisticated legal solutions 
-          to individuals, families, and institutions facing their most consequential matters.
+          A modern law firm delivering strategic, discreet, and authoritative legal solutions.
         </motion.p>
 
         <motion.div
