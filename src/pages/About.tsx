@@ -63,25 +63,27 @@ const About = () => {
                 <div className="accent-line mb-8" />
                 <div className="space-y-6 text-body">
                   <p>
-                    Sterling & Associates was founded in 1987 by Eleanor Sterling, 
-                    a visionary attorney who believed that exceptional legal counsel 
-                    required more than technical expertise—it demanded an unwavering 
-                    commitment to clients' interests and the wisdom that comes from 
-                    deep experience.
-                  </p>
-                  <p>
-                    From our founding, we have held to the conviction that every 
-                    client deserves the full attention and resources of our firm, 
-                    regardless of the size of their matter. This principle has 
-                    guided our growth from a boutique practice to a distinguished 
-                    firm serving clients across the nation.
-                  </p>
-                  <p>
-                    Today, Sterling & Associates continues the tradition established 
-                    by our founder: providing sophisticated, client-centered legal 
-                    services with the integrity and discretion that have defined 
-                    our practice for over three decades.
-                  </p>
+                    Manthan Law Firm was established with a clear vision—to provide
+                    principled, practical, and client-focused legal solutions. Built on a
+                    strong foundation of professional ethics and legal rigor, the firm
+                    approaches every matter with diligence, discretion, and clarity.
+                 </p>
+
+                 <p>
+                   From its inception, the firm has believed that every client deserves
+                   focused attention, transparent communication, and well-reasoned legal
+                   strategy. This belief has shaped the firm’s approach across diverse
+                   practice areas and has earned the trust of individuals, businesses,
+                   and institutions alike.
+                </p>
+
+                <p>
+                  Today, Manthan Law Firm continues to uphold its core values by delivering
+                  effective, solution-oriented legal services while maintaining the
+                  highest standards of integrity, professionalism, and client
+                  confidentiality.
+                </p>
+
                 </div>
               </motion.div>
 
@@ -94,8 +96,8 @@ const About = () => {
               >
                 <div className="aspect-[4/5] bg-primary/5 border border-border flex items-center justify-center">
                   <div className="text-center p-12">
-                    <span className="text-6xl md:text-8xl font-serif text-accent">1987</span>
-                    <p className="text-caption mt-4">Year Established</p>
+                    <span className="text-6xl md:text-8xl font-serif text-accent">Trusted</span>
+                    <p className="text-caption mt-4">Legal Advisory</p>
                   </div>
                 </div>
                 <div className="absolute -bottom-6 -right-6 w-24 h-24 border border-accent" />
@@ -155,14 +157,12 @@ const About = () => {
             >
               <div className="w-12 h-px bg-accent mx-auto mb-10" />
               <blockquote className="text-2xl md:text-3xl font-serif italic leading-relaxed mb-8">
-                "The measure of a firm is not found in its wins, 
-                but in the trust its clients place in it, 
-                year after year."
-              </blockquote>
+                "Effective legal counsel is built on clarity, commitment, and enduring client trust."
+               </blockquote>
               <cite className="not-italic">
-                <span className="text-accent">Eleanor Sterling</span>
+                <span className="text-accent">Manthan Law Firm</span>
                 <span className="text-primary-foreground/60 text-sm block mt-1">
-                  Founding Partner
+                  Advocates and Legal Consultants
                 </span>
               </cite>
               <div className="w-12 h-px bg-accent mx-auto mt-10" />
