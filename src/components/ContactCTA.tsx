@@ -27,7 +27,7 @@ const ContactCTA = () => {
               Contact Us
             </Link>
             <a href="tel:+16175551234" className="btn-outline">
-              +1 (617) 555-1234
+              +91 85950 05005
             </a>
           </div>
         </motion.div>
