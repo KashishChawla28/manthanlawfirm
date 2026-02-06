@@ -49,7 +49,7 @@ const Navigation = () => {
                 transition={{ duration: 0.3 }}
               >
                 <span className="font-serif text-xl md:text-2xl tracking-tight text-foreground">
-                  Sterling<span className="text-accent">&</span>Associates
+                  Manthan Law Firm
                 </span>
               </motion.div>
             </Link>
