@@ -36,12 +36,11 @@ const Footer = () => {
           <div className="lg:col-span-2">
             <Link to="/" className="inline-block mb-6">
               <span className="font-serif text-2xl tracking-tight">
-                Sterling<span className="text-accent">&</span>Associates
+                Manthan Law Firm
               </span>
             </Link>
             <p className="text-sm text-primary-foreground/60 max-w-sm leading-relaxed">
-              Distinguished legal counsel providing sophisticated solutions for 
-              complex matters since 1987.
+              Experienced legal professionals providing strategic solutions for complex and evolving legal challenges.
             </p>
           </div>
 
@@ -70,15 +69,15 @@ const Footer = () => {
               Contact
             </h4>
             <address className="not-italic space-y-3 text-sm text-primary-foreground/70">
-              <p>One Financial Center<br />Suite 4200<br />Boston, MA 02111</p>
+              <p>Chamber No. 783, Western Wing<br />Tis Hazari Court<br />Delhi-110054</p>
               <p className="pt-2">
-                <a href="tel:+16175551234" className="hover:text-accent transition-colors">
-                  +1 (617) 555-1234
+                <a href="tel:+918595005005" className="hover:text-accent transition-colors">
+                  +91 85950 05005
                 </a>
               </p>
               <p>
-                <a href="mailto:inquiries@sterlinglaw.com" className="hover:text-accent transition-colors">
-                  inquiries@sterlinglaw.com
+                <a href="mailto:manthanlawfirm@gmail.com" className="hover:text-accent transition-colors">
+                  manthanlawfirm@gmail.com
                 </a>
               </p>
             </address>
@@ -89,7 +88,7 @@ const Footer = () => {
         <div className="pt-8 border-t border-primary-foreground/10">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
             <p className="text-xs text-primary-foreground/40">
-              © {new Date().getFullYear()} Sterling & Associates. All rights reserved.
+              © {new Date().getFullYear()} Manthan Law Firm . All rights reserved.
             </p>
             <div className="flex items-center gap-6 text-xs text-primary-foreground/40">
               <Link to="/privacy" className="hover:text-accent transition-colors">
