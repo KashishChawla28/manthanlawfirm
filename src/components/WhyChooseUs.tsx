@@ -2,12 +2,12 @@ import { motion } from "framer-motion";
 
 const values = [
   {
-    number: "35+",
-    label: "Years of Excellence",
-    description: "Three decades of distinguished legal practice and trusted client relationships.",
+  number: "Extensive",
+  label: "Legal Experience",
+  description: "Providing strategic legal counsel across diverse practice areas.",
   },
   {
-    number: "500+",
+    number: "200+",
     label: "Matters Resolved",
     description: "Successfully navigating complex legal challenges across diverse practice areas.",
   },
@@ -37,7 +37,7 @@ const WhyChooseUs = () => {
             </h2>
             <div className="accent-line mb-8" />
             <p className="text-body mb-6">
-              At Sterling & Associates, we believe that exceptional legal counsel requires 
+              At Manthan Law Firm , we believe that exceptional legal counsel requires 
               more than technical expertise. It demands an unwavering commitment to our 
               clients' interests, the wisdom that comes from experience, and the integrity 
               to always do what is right.
