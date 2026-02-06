@@ -84,9 +84,9 @@ const Contact = () => {
                     <div>
                       <h3 className="font-serif text-sm mb-1">Address</h3>
                       <p className="text-body text-sm">
-                        One Financial Center<br />
-                        Suite 4200<br />
-                        Boston, MA 02111
+                        Chamber No. 783, Western Wing<br />
+                        Tis Hazari Court<br />
+                        Delhi-110054
                       </p>
                     </div>
                   </div>
@@ -97,8 +97,8 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-serif text-sm mb-1">Phone</h3>
-                      <a href="tel:+16175551234" className="text-body text-sm hover:text-accent transition-colors">
-                        +1 (617) 555-1234
+                      <a href="tel:+918595005005" className="text-body text-sm hover:text-accent transition-colors">
+                        +91 85950 05005
                       </a>
                     </div>
                   </div>
@@ -109,8 +109,8 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-serif text-sm mb-1">Email</h3>
-                      <a href="mailto:inquiries@sterlinglaw.com" className="text-body text-sm hover:text-accent transition-colors">
-                        inquiries@sterlinglaw.com
+                      <a href="mailto:manthanlawfirm@gmail.com" className="text-body text-sm hover:text-accent transition-colors">
+                        manthanlawfirm@gmail.com
                       </a>
                     </div>
                   </div>
