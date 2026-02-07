@@ -45,23 +45,54 @@ const Footer = () => {
           </div>
 
           {/* Quick Links */}
-          <div>
-            <h4 className="text-sm tracking-widest uppercase mb-6 text-primary-foreground/40">
-              Navigation
-            </h4>
-            <ul className="space-y-3">
-              {["Home", "Practice Areas", "About", "Our Team", "Contact"].map((link) => (
-                <li key={link}>
-                  <Link
-                    to={link === "Home" ? "/" : `/${link.toLowerCase().replace(" ", "-")}`}
-                    className="text-sm text-primary-foreground/70 hover:text-accent transition-colors duration-300"
-                  >
-                    {link}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
+<div>
+  <h4 className="text-sm tracking-widest uppercase mb-6 text-primary-foreground/40">
+    Navigation
+  </h4>
+  <ul className="space-y-3">
+    <li>
+      <Link
+        to="/"
+        className="text-sm text-primary-foreground/70 hover:text-accent transition-colors duration-300"
+      >
+        Home
+      </Link>
+    </li>
+    <li>
+      <Link
+        to="/practice-areas"
+        className="text-sm text-primary-foreground/70 hover:text-accent transition-colors duration-300"
+      >
+        Practice Areas
+      </Link>
+    </li>
+    <li>
+      <Link
+        to="/about"
+        className="text-sm text-primary-foreground/70 hover:text-accent transition-colors duration-300"
+      >
+        About
+      </Link>
+    </li>
+    <li>
+      <Link
+        to="/team"
+        className="text-sm text-primary-foreground/70 hover:text-accent transition-colors duration-300"
+      >
+        Our Team
+      </Link>
+    </li>
+    <li>
+      <Link
+        to="/contact"
+        className="text-sm text-primary-foreground/70 hover:text-accent transition-colors duration-300"
+      >
+        Contact
+      </Link>
+    </li>
+  </ul>
+</div>
+
 
           {/* Contact */}
           <div>
