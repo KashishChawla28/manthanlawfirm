@@ -163,20 +163,20 @@ const handleSubmit = async (e: React.FormEvent) => {
                   </div>
                 </div>
 
-               <a
-  href="https://maps.app.goo.gl/QYBVybgTqGisSjds6"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="mt-8 block aspect-[4/3] border border-border overflow-hidden rounded-lg grayscale hover:grayscale-0 transition-all duration-500"
->
-  <iframe
-    title="Manthan Law Firm Location"
-    src="https://www.google.com/maps?q=Tis+Hazari+Court+Delhi&output=embed"
-    className="w-full h-full pointer-events-none"
-    loading="lazy"
-  />
-</a>
-
+               {/* Google Map */}
+              <a
+                href="https://maps.google.com/?q=Tis+Hazari+Court+Delhi"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-8 block aspect-[4/3] border border-border overflow-hidden rounded-lg grayscale hover:grayscale-0 transition-all duration-500"
+               >
+              <iframe
+                title="Manthan Law Firm Location"
+                src={"https://www.google.com/maps?q=Tis+Hazari+Court+Delhi&output=embed"}
+                className="w-full h-full pointer-events-none"
+               loading="lazy"
+               />
+              </a>
 
 
               {/* Contact Form */}
