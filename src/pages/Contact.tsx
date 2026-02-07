@@ -20,7 +20,7 @@ const handleSubmit = async (e: React.FormEvent) => {
   setIsSubmitting(true);
 
   try {
-    const res = await fetch("https://script.google.com/macros/s/AKfycbx7l5nXgpB4FJ4g9BwKDU-GwlqmzKYvXGdb1849SXGrhIt7t3Q2HklZPeb65YwMUOgr/exec", {
+    const res = await fetch("https://script.google.com/macros/s/AKfycbzoZDCDKhxhtxXBgORH8CNZNiILo75giW5v_dn7F1u7lWlh6QduxujkDCmBr3R7Xy4c/exec", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(formData),
