@@ -1,3 +1,23 @@
+/* ===== Mobile & Layout Safety Fix ===== */
+html,
+body {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  -webkit-text-size-adjust: 100%;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -109,11 +129,13 @@
 
   html {
     scroll-behavior: smooth;
+    font-size: 100%;
   }
 
   body {
     @apply bg-background text-foreground antialiased;
     font-family: var(--font-sans);
+    line-height: 1.5;
   }
 
   h1, h2, h3, h4, h5, h6 {
