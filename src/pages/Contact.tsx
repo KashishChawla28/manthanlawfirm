@@ -179,6 +179,7 @@ const handleSubmit = async (e: React.FormEvent) => {
 </a>
 
 
+</motion.div>
 
               {/* Contact Form */}
               <motion.div
