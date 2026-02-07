@@ -20,17 +20,25 @@ const handleSubmit = async (e: React.FormEvent) => {
   setIsSubmitting(true);
 
   try {
-    const res = await fetch("https://script.google.com/macros/s/AKfycbzoZDCDKhxhtxXBgORH8CNZNiILo75giW5v_dn7F1u7lWlh6QduxujkDCmBr3R7Xy4c/exec", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(formData),
-    });
+    const res = await fetch(
+      "https://script.google.com/macros/s/AKfycbzoZDCDKhxhtxXBgORH8CNZNiILo75giW5v_dn7F1u7lWlh6QduxujkDCmBr3R7Xy4c/exec",
+      {
+        method: "POST",
+        body: JSON.stringify(formData),
+      }
+    );
 
     const data = await res.json();
 
     if (data.status === "success") {
       setIsSubmitted(true);
-      setFormData({ name: "", email: "", phone: "", subject: "", message: "" });
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        subject: "",
+        message: "",
+      });
     } else {
       alert("Error submitting form");
     }
