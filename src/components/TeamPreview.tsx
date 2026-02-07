@@ -7,7 +7,7 @@ const team = [
     name: "Subhash Chugh",
     role: "Founder & Proprietor",
     specialty: "Litigation/Criminal/Civil",
-    image: "/subhashchugh.jpeg",
+    image: "/subashchugh.jpeg",
   },
   {
     name: "Ravi Verma",
