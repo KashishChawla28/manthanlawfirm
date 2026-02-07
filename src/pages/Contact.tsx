@@ -119,7 +119,7 @@ const handleSubmit = async (e: React.FormEvent) => {
                       <h3 className="font-serif text-sm mb-1">Address</h3>
                       <p className="text-body text-sm">
                         Chamber No. 783, Western Wing<br />
-                        Tis Hazari Court<br />
+                        Tis Hazari Courts<br />
                         Delhi-110054
                       </p>
                     </div>
