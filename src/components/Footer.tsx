@@ -69,7 +69,7 @@ const Footer = () => {
               Contact
             </h4>
             <address className="not-italic space-y-3 text-sm text-primary-foreground/70">
-              <p>Chamber No. 783, Western Wing<br />Tis Hazari Court<br />Delhi-110054</p>
+              <p>Chamber No. 783, Western Wing<br />Tis Hazari Courts<br />Delhi-110054</p>
               <p className="pt-2">
                 <a href="tel:+918595005005" className="hover:text-accent transition-colors">
                   +91 85950 05005
