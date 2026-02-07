@@ -20,17 +20,24 @@ const handleSubmit = async (e: React.FormEvent) => {
   setIsSubmitting(true);
 
   try {
+    const form = new FormData();
+    form.append("name", formData.name);
+    form.append("email", formData.email);
+    form.append("phone", formData.phone);
+    form.append("subject", formData.subject);
+    form.append("message", formData.message);
+
     const res = await fetch(
-      "https://script.google.com/macros/s/AKfycbzoZDCDKhxhtxXBgORH8CNZNiILo75giW5v_dn7F1u7lWlh6QduxujkDCmBr3R7Xy4c/exec",
+      "https://script.google.com/macros/s/AKfycbzdH2Cpsz9mWrHQlMzGjX2h9paV7y6JqVrNOashoCnE9_IaThDJr3JMEDDNOr5ZaMdJ/exec",
       {
         method: "POST",
-        body: JSON.stringify(formData),
+        body: form,
       }
     );
 
-    const data = await res.json();
+    const text = await res.text();
 
-    if (data.status === "success") {
+    if (text === "success") {
       setIsSubmitted(true);
       setFormData({
         name: "",
@@ -49,6 +56,7 @@ const handleSubmit = async (e: React.FormEvent) => {
     setIsSubmitting(false);
   }
 };
+
 
 
   const handleChange = (
