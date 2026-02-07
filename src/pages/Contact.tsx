@@ -15,15 +15,33 @@ const Contact = () => {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setIsSubmitting(true);
-    // Simulate form submission
-    await new Promise((resolve) => setTimeout(resolve, 1500));
+const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+  setIsSubmitting(true);
+
+  try {
+    const res = await fetch("https://script.google.com/macros/s/AKfycbx7l5nXgpB4FJ4g9BwKDU-GwlqmzKYvXGdb1849SXGrhIt7t3Q2HklZPeb65YwMUOgr/exec", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(formData),
+    });
+
+    const data = await res.json();
+
+    if (data.status === "success") {
+      setIsSubmitted(true);
+      setFormData({ name: "", email: "", phone: "", subject: "", message: "" });
+    } else {
+      alert("Error submitting form");
+    }
+  } catch (err) {
+    console.error(err);
+    alert("Error submitting form");
+  } finally {
     setIsSubmitting(false);
-    setIsSubmitted(true);
-    setFormData({ name: "", email: "", phone: "", subject: "", message: "" });
-  };
+  }
+};
+
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
