@@ -163,12 +163,11 @@ const handleSubmit = async (e: React.FormEvent) => {
                   </div>
                 </div>
 
-               {/* Google Map */}
-<a
-  href="https://maps.google.com/?q=Tis+Hazari+Court+Delhi"
+               <a
+  href="https://maps.app.goo.gl/QYBVybgTqGisSjds6"
   target="_blank"
   rel="noopener noreferrer"
-  className="mt-8 block aspect-[4/3] border border-border overflow-hidden rounded-lg hover:opacity-90 transition"
+  className="mt-8 block aspect-[4/3] border border-border overflow-hidden rounded-lg grayscale hover:grayscale-0 transition-all duration-500"
 >
   <iframe
     title="Manthan Law Firm Location"
@@ -177,6 +176,7 @@ const handleSubmit = async (e: React.FormEvent) => {
     loading="lazy"
   />
 </a>
+
 
 
               {/* Contact Form */}
