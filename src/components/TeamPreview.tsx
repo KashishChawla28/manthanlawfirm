@@ -7,19 +7,19 @@ const team = [
     name: "Subhash Chugh",
     role: "Founder & Proprietor",
     specialty: "Litigation/Criminal/Civil",
-    image: "/team/subhashchugh.jpeg",
+    image: "/subhashchugh.jpeg",
   },
   {
     name: "Ravi Verma",
     role: "Senior Associate",
     specialty: "Litigation/Corporate",
-    image: "/team/raviverma.jpeg",
+    image: "/raviverma.jpeg",
   },
   {
     name: "Keshav Ahuja",
     role: "Senior Associate",
     specialty: "Litigation/Taxation/Corporate",
-    image: "/team/keshavahuja.jpeg",
+    image: "/keshavahuja.jpeg",
   },
 ];
 
