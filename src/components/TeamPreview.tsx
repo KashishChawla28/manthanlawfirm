@@ -4,22 +4,22 @@ import { ArrowRight } from "lucide-react";
 
 const team = [
   {
-    name: "Eleanor Sterling",
-    role: "Founding Partner",
-    specialty: "Corporate Law & M&A",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=600&h=750&fit=crop&crop=face",
+    name: "Subhash Chugh",
+    role: "Founder & Proprietor",
+    specialty: "Litigation/Criminal/Civil",
+    image: "/team/subhashchugh.jpeg",
   },
   {
-    name: "James Hartwell",
-    role: "Senior Partner",
-    specialty: "Litigation & Dispute Resolution",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=600&h=750&fit=crop&crop=face",
+    name: "Ravi Verma",
+    role: "Senior Associate",
+    specialty: "Litigation/Corporate",
+    image: "/team/raviverma.jpeg",
   },
   {
-    name: "Victoria Chen",
-    role: "Partner",
-    specialty: "Private Client & Estate Planning",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=600&h=750&fit=crop&crop=face",
+    name: "Keshav Ahuja",
+    role: "Senior Associate",
+    specialty: "Litigation/Taxation/Corporate",
+    image: "/team/keshavahuja.jpeg",
   },
 ];
 
