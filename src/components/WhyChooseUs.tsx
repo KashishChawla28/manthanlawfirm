@@ -21,7 +21,7 @@ const values = [
 const WhyChooseUs = () => {
   return (
     <section className="section-padding bg-background">
-      <div className="container-wide">
+      <div className="container-wide max-w-full">
         <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
           {/* Left column - Text */}
           <motion.div
@@ -31,18 +31,18 @@ const WhyChooseUs = () => {
             transition={{ duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
           >
             <p className="text-caption mb-4">Why Choose Us</p>
-            <h2 className="text-headline mb-8">
+            <h2 className="text-headline mb-8 text-[2.2rem] leading-snug md:text-headline">
               A Legacy of<br />
               <span className="text-accent italic">Principled Practice</span>
             </h2>
             <div className="accent-line mb-8" />
-            <p className="text-body mb-6">
+            <p className="text-body mb-6 max-w-[40ch] md:max-w-none">
               At Manthan Law Firm , we believe that exceptional legal counsel requires 
               more than technical expertise. It demands an unwavering commitment to our 
               clients' interests, the wisdom that comes from experience, and the integrity 
               to always do what is right.
             </p>
-            <p className="text-body mb-8">
+            <p className="text-body mb-8 max-w-[40ch] md:max-w-none">
               Our attorneys bring a rare combination of intellectual rigor, practical judgment, 
               and genuine care to every matter we handle. We are trusted advisors first, 
               advocates second—and we take both roles seriously.
@@ -61,7 +61,7 @@ const WhyChooseUs = () => {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.8, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
-            className="space-y-8"
+            className="space-y-8 max-w-full"
           >
             {values.map((value, index) => (
               <motion.div
@@ -72,8 +72,8 @@ const WhyChooseUs = () => {
                 transition={{ delay: 0.1 * index + 0.3, duration: 0.6 }}
                 className="group p-8 border border-border transition-colors duration-500 hover:border-accent/30 hover:bg-secondary/20"
               >
-                <div className="flex items-start gap-6">
-                  <span className="text-5xl md:text-6xl font-serif text-accent">
+                <div className="flex items-start gap-4 md:gap-6">
+                  <span className="text-4xl md:text-6xl font-serif text-accent">
                     {value.number}
                   </span>
                   <div>
