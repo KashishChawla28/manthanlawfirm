@@ -26,13 +26,6 @@ const team = [
     image: "/keshavahuja.jpeg",
   },
   {
-    name: "Shivali Sharma",
-    role: "Senior Associate",
-    specialty: "Litigation/Civil/Matrimonial",
-    bio: "Ms. Shivali Sharma is a Senior Associate at Manthan Law Firm with focused experience in civil litigation and matrimonial disputes. She regularly advises and represents clients in matters involving divorce, maintenance, custody, and family settlements. Known for her empathetic yet strategic approach, she handles sensitive disputes with discretion while ensuring strong legal advocacy.",
-    image: "/shivalisharma.jpeg",
-  },
-  {
     name: "Utkarsh",
     role: "Legal Associate",
     specialty: "Research Analyst",
