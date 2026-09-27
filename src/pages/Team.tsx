@@ -7,8 +7,8 @@ const team = [
   {
     name: "Subhash Chugh",
     role: "Founder & Proprietor",
-    specialty: "Litigation/Criminal/Civil",
-    bio: "Mr. Subhash Chugh is the Founder and Proprietor of Manthan Law Firm, with decades of experience representing clients across criminal, civil, and commercial litigation. Known for his strategic approach and courtroom advocacy, he has successfully handled complex matters before various courts and tribunals. His practice is built on integrity, precision, and a deep commitment to delivering effective legal solutions tailored to each client’s needs.",
+    specialty: "Litigation/Civil",
+    bio: "Mr. Subhash Chugh is the Founder and Proprietor of Manthan Law Firm, with decades of experience representing clients across civil and commercial litigation. Known for his strategic approach and courtroom advocacy, he has successfully handled complex matters before various courts and tribunals. His practice is built on integrity, precision, and a deep commitment to delivering effective legal solutions tailored to each client’s needs.",
     image: "/subashchugh.jpeg",
   },
   {
