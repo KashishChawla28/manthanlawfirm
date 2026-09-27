@@ -6,7 +6,7 @@ const team = [
   {
     name: "Subhash Chugh",
     role: "Founder & Proprietor",
-    specialty: "Litigation/Criminal/Civil",
+    specialty: "Litigation/Civil",
     image: "/subashchugh.jpeg",
   },
   {
